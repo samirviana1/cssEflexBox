@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  h2 {
+    margin: 30px 0;
+  }
+
+  .ex2 {
+    width: 90vw;
+    height: 85vh;
+    background-color: darkgray;
+  }
+  .orange {
+    background-color: orange;
+  }
+  .blue {
+    background-color: blue;
+  }
+  .circle {
+    border-radius: 50%;
+  }
+  .orange,
+  .blue {
+    width: 150px;
+    height: 150px;
+  }
+  .ex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .div-end {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
