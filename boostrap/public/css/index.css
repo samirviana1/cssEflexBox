@@ -1,0 +1,26 @@
+*{
+    margin: 0; padding: 0;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
